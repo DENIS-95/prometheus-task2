@@ -11,6 +11,7 @@ services:
     environment:
       - REDIS_ADDRESS=redis
       - REDIS_PORT=6379
+      - APP_PORT=8080
 
   redis:
     image: redis:alpine
